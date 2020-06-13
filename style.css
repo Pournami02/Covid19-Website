@@ -1,0 +1,176 @@
+body{
+	background-color:black;
+	color:white;
+}
+/*Home*/
+.nav1{
+	list-style-type:none;
+	 background-color:#2f4f4f;
+	text-align:center;
+	flex:100%;
+	display:flex;
+	margin:0;
+	padding:0;
+	height:25px;
+}
+.nav1 li{
+	display:inline-block;
+	flex-grow:1;
+	display:flex-grow;
+	font-size:22px;
+}
+.nav1 a{
+	text-decoration:none;
+	color:white;
+}
+.nav1 a:hover{
+	text-decoration:underline;	
+}	
+.h1{
+	text-align:center;
+	font-size:40px;
+	color:crimson;
+	
+	
+}
+#h3{
+	color:#66cdaa;
+}
+.box1{
+	padding-top:20px;
+	float:right;
+	width:25%;
+	margin-left:20px;
+	margin-top:30px;
+}
+/*Take the Quiz*/
+.nav2{
+ height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top:0;
+  left: 0;
+  background-color:#2f4f4f;
+  margin:0;
+  padding-top: 20px;
+  list-style-type:none;	
+}
+.nav2 a{
+	text-decoration:none;
+	color:white;
+}
+.nav2 a:hover{
+	text-decoration:underline;			
+}
+.h2{
+	text-align:center;
+	font-family: 'Kaushan Script';	
+	color:#db7093;
+}
+.box2{
+	margin-left:18%;
+}
+#h4{
+	margin-left:18%;
+}	
+#button1{
+	margin-left:18%;
+height:40px;
+width:100px;
+}
+#box3{
+	margin-left:18%;
+	
+}
+#box4{
+	margin-left:18%;
+	
+}	
+/*FAQs*/
+.box5{
+	margin-left:18%;
+}
+.form2{
+	margin-left:40%;
+		
+}
+.form2 label{
+	display:block;
+	color:powderblue;
+}
+.form2 textarea{
+	width:75%;
+	padding:5px;
+}
+.form2 input[type="text"]{
+	width:50%;
+	padding:5px;
+}
+.button{
+	background-color:#2f4f4f;
+	color:white;
+	padding:5px;
+	border:2px #2f4f4f solid; 
+}
+.button:hover{
+	text-decoration:underline;
+}
+#box6{
+	
+	position:absolute;
+	top:45%;
+	left:35%;
+}
+.form3{
+	margin-left:40%;
+		
+}	
+.form3 label{
+	display:block;
+	color:powderblue;
+}
+.form3 textarea{
+	width:75%;
+	padding:5px;
+}
+.form3 input[type="text"]{
+	width:50%;
+	padding:5px;
+}
+figure{
+	margin-left:18%;
+}
+footer{
+	float:right;
+}
+/*Statistics*/
+table{
+	margin-left:18%;
+	width:75%;
+	text-align:center;
+}
+th{
+	color:red;
+	font-size:25;
+}
+.ul3
+{
+	float:right;	
+	margin-right:20%;
+	list-style-type:none;
+}
+.ul4
+{
+	float:left;	
+	width:25%;
+	margin-left:18%;
+	list-style-type:none;
+}
+.ul4 a{
+	text-decoration:none;
+	color:white;
+}
+.ul4 a:hover{
+	text-decoration:underline;
+}
