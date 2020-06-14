@@ -84,30 +84,30 @@ body{
 	color:#db7093;
 }
 .box2{
-	margin-left:18%;
+	margin-left:1%;
 }
 #h4{
-	margin-left:18%;
+	margin-left:1%;
 }	
 #button1{
-	margin-left:18%;
+	margin-left:1%;
 height:40px;
 width:100px;
 }
 #box3{
-	margin-left:18%;
+	margin-left:1%;
 	
 }
 #box4{
-	margin-left:18%;
+	margin-left:1%;
 	
 }	
 /*FAQs*/
 .box5{
-	margin-left:18%;
+	margin-left:1%;
 }
 .form2{
-	margin-left:40%;
+	margin-left:4%;
 		
 }
 .form2 label{
@@ -138,7 +138,7 @@ width:100px;
 	left:35%;
 }
 .form3{
-	margin-left:40%;
+	margin-left:4%;
 		
 }	
 .form3 label{
@@ -154,14 +154,14 @@ width:100px;
 	padding:5px;
 }
 figure{
-	margin-left:18%;
+	margin-left:1%;
 }
 footer{
 	float:right;
 }
 /*Statistics*/
 table{
-	margin-left:18%;
+	margin-left:1%;
 	width:75%;
 	text-align:center;
 }
@@ -179,7 +179,7 @@ th{
 {
 	float:left;	
 width:25%;
-	margin-left:18%;
+	margin-left:1%;
 	list-style-type:none;
 }
 .ul4 a{
