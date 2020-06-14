@@ -1,6 +1,8 @@
 body{
 	background-color:black;
 	color:white;
+	min-width:480px;
+	max-width:1920px;
 }
 /*Home*/
 .nav1{
@@ -46,7 +48,7 @@ body{
 /*Take the Quiz*/
 .nav2{
  height: 100%;
-  width: 200px;
+  width: 15%;
   position: fixed;
   z-index: 1;
   top:0;
