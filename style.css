@@ -47,16 +47,16 @@ body{
 }
 /*Take the Quiz*/
 .nav2{
- height: 100%;
-  width: 15%;
-  position: fixed;
-  z-index: 1;
-  top:0;
-  left: 0;
-  background-color:#2f4f4f;
-  margin:0;
-  padding-top: 20px;
-  list-style-type:none;	
+	list-style-type:none;
+	 background-color:#2f4f4f;
+	text-align:center;
+	flex:100%;
+	display:flex;
+	margin:0;
+	padding:0;
+	height:25px;
+	
+
 }
 .nav2 a{
 	text-decoration:none;
