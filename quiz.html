@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet"type="text/css"href="style.css">
+	<script src="javascript.js"></script>
+	
+</head>
+<body>
+	<header>
+		<h1 class="h1">COVID-19</h1>
+		<ul class="nav2">
+			<li><a href="index.html">HOME</a></li>
+			<br>
+			<li><a href="statistics.html">STATISTICS</a></li>
+			<br>
+			<li><a href="quiz.html">TAKE THE QUIZ</a></li>
+			<br>
+			<li><a href="faq.html">FAQ</a></li>
+			<br>
+			<li><a href="contact.html">CONTACT</a></li>
+		</ul>
+		<h2 class="h2">TAKE THE QUIZ</h2>
+	</header>
+	<h4 id="h4">Anxious about your health?Wanna check how vulnerable are you to COVID-19?Take the quiz and we will tell you what to do next!!</h4>
+	<p class="box2">NB:This information is not intended to provide medical advise.If you have medical questions,consult a health practitioner.</p>
+	<div id="box3">
+	<form id="form1">
+		<ol class="ol1">
+			<li>Do you have any of the following symptoms?</li>
+				<br>
+				<ul>
+					<li>Fever or chills</li>
+					<li>New cough</li>
+					<li>Shortness or difficulty in breathing</li>
+					<li>New loss of taste or smell</li>
+				</ul>
+				<br>
+				<label><input type='radio'name="symptom"id="yes"required>Yes</label>
+				<br>
+				<label><input type='radio'name="symptom"id="no"required>No</label>
+				<br>
+			<li>Have you ever had any of the following ?</li>
+				<br>
+				<ul>
+					<li>Diabetes</li>
+					<li>Hypertension</li>
+					<li>Lung disease</li>
+					<li>Heart disease</li>
+				</ul>
+				<br>
+				<label><input type='radio'name="disease"id="yes"required>Yes</label>
+				<br>
+				<label><input type='radio'name="disease"id="no"required>No</label>
+				<br>
+			<li>Are you in close contact with a laboratory confirmed COVID-19 patient?</li>
+				<br>
+				<label><input type='radio'name="contact"id="yes"required>Yes</label>
+				<br>
+				<label><input type='radio'name="contact"id="no"required>No</label>
+				<br> 
+			<li>Have you travelled outside of India recently?</li>
+				<br>
+				<label><input type='radio'name="travel"id="yes"required>Yes</label>
+				<br>
+				<label><input type='radio'name="travel"id="no"required>No</label> 
+				<br>
+			<li>Are you in close contact with a person who is sick with respiratory symptoms(fever,cough or difficulty in breathing)who recently travelled outside of India?</li>
+				<br>
+				<label><input type='radio'name="sick"id="yes"required>Yes</label>
+				<br>
+				<label><input type='radio'name="sick"id="no"required>No</label>
+				<br> 		
+			<li>Are you a healthcare worker?</li>
+				<br>
+				<label><input type='radio'name="work"id="yes"required>Yes</label>
+				<br>
+				<label><input type='radio'name="work"id="no"required>No</label> 
+		</ol>
+		<input class="button"type="submit"value="Submit"name="submit"onclick="function1();">
+	
+	</div>
+	<p id="box4"></p>
+		
+			
+</body>
+</html>
